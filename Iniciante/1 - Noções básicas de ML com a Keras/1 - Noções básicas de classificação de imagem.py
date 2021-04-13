@@ -1,3 +1,5 @@
+#Treine sua primeira rede neural: classificação básica
+#Link: https://www.tensorflow.org/tutorials/keras/classification
 # TensorFlow e tf.keras
 import tensorflow as tf
 from tensorflow import keras
@@ -104,6 +106,7 @@ def plot_value_array(i, predictions_array, true_label):
 
   thisplot[predicted_label].set_color('red')
   thisplot[true_label].set_color('blue')
+  
 '''
 #Predição do Array 0
 i = 0
